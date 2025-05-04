@@ -1,0 +1,20 @@
+// Set up a white‐background container for our chart
+<div id="chart-container" style="background-color: white;">{
+    // Define chart type
+    var line  = "line";
+
+    // Dummy data: [label, value]
+    var data = [
+        ["Jan",  50],
+        ["Feb",  80],
+        ["Mar", 120],
+        ["Apr",  60],
+        ["May",  90]
+    ];
+
+    // Define chart color
+    var color = "blue";
+
+    // Render the line chart with dummy data in blue
+    chart(line, data, color);
+}</div>
